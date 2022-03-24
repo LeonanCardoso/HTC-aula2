@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #3F3D56;
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    margin-top: 68px;
+    margin-bottom: 31px;
+}
+
+.form{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.input-width{
+    width: 515px;
+    height: 47px;
+    
+}
+.label-input{
+    font-size: 14px;
+    color: #323730;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.input-email{
+    margin-bottom: 39px;
+    padding-left: 17px;
+}
+
+.input-password{
+    margin-bottom: 27px;
+    padding-left: 17px;
+}
+
+.submit-button{
+    width: 514px;
+    height: 47px;
+    background-color: #3F3D56;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    border: none;
+    transition-duration: 300ms;
+}
+.submit-button:hover{
+    background-color: #3f3d56d5;
+    color: #fff;
+}
+.checkbox-kc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.footer-message{
+    font-size: 14px;
+    font-weight: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #1DB9E0;
+}
+
