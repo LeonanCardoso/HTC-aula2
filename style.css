@@ -38,21 +38,14 @@ body{
 .input-field{
     font-size: 14px;
     color: #323730;
-        
+    margin-bottom:6px ;    
 }
 
 .input-width{
     width: 396px;
     height: 47px;
     padding-left: 14px;
-}
-
-.completeName{
-    margin-bottom:5px;
-}
-
-.completeName-input{
-    margin-bottom: 24px;
+    margin-bottom: 24px
 }
 
 .date-input{
@@ -128,7 +121,7 @@ a{
 .register-button{
     background-color: #3F3D56;
     color: white;
-    width: 396px;
+    width: 415px;
     height: 47px;
     font-size: 16px;
     border-radius: 5px;
@@ -147,12 +140,12 @@ a{
     flex-direction:row;
     width: 100%;
     margin-bottom: 28px;
+    justify-content: space-between;
 }
 
 #user-term{
-    margin-right: 10px;
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
 }
 
 .enter-now{

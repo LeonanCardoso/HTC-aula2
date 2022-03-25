@@ -6,31 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/Aula 2/login/style.css">
+    <link rel="stylesheet" href="/Aula 2/style.css">
 </head>
 
 <body>
-    <section class="conteiner">
-        <h1 class="title">Faça seu login</h1>
+    <h1 class="title">Faça seu login</h1>
+    <section class="container">
         <form class="form">
-            <label for="email" class="label-input">E-mail</label>
+            <label for="email" class="input-field">E-mail</label>
             <input type="email" class="input-width input-email" name="email" required placeholder="Digite seu e-mail">
 
-            <label class="label-input" for="senha">Senha</label>
-            <input type="password" class="input-width input-password" required name="senha" placeholder="Digite sua senha">
+            <label class="input-field" for="senha">Senha</label>
+            <input type="password" class="input-width" required name="senha" placeholder="Digite sua senha">
 
-            <div class="checkbox-kc">
-                <div class="teste">
-                <input type="checkbox" name="keep-connected" class="checkbox-kecon" id="" >
-                <label for="keep-connected" class="label-input">Mantenha-me conectado</label>
-            </div>
+            <div class="userterm">
+                <input type="checkbox" name="user-term" required id="user-term">
+                <label for="user-term" class="label-input">Mantenha-me conectado</label>
                 <a href="">Esqueci minha senha</a>
             </div>
 
-            <input type="submit" class="submit-button" value="Entrar">
+            <input type="submit" class="register-button" value="Entrar">
+            <span class="enter-now">Ainda não tem uma conta?  <a href="/Aula 2/index.html">Cadastre-se</a></span>
         </form>
 
-        <span class="footer-message">Ainda não tem uma conta?  <a href="/Aula 2/index.html">Cadastre-se</a></span>
         
     </section>
 </body>
